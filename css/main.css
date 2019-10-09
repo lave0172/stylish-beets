@@ -11,13 +11,17 @@ h1, h2 {
   font-weight: bold;
 }
 
-nav a {
+nav li a {
   color: #8f2440;
   font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
-  list-style-type: none;
   text-decoration: none;
 }
+
+nav .list-style-none {
+  list-style-type: none;
+}
+
 
 nav a:hover {
   color: #3f1622;
@@ -30,19 +34,20 @@ img {
 
 figcaption {
   font-family: "PT Serif", serif;
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-style: italic;
+  text-align: center;
 }
 
 data {
   font-family: "PT Serif", serif;
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-weight: bold;
 }
 
 p {
   font-family: "PT Serif", serif;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 p b {
@@ -56,22 +61,30 @@ blockquote {
   font-weight: normal;
 }
 
+strong {
+  font-weight: normal;
+}
+
 cite {
   font-family: "PT Serif", serif;
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-style: italic;
 }
 
-ol li {
+aside ol li {
   font-family: "PT Serif", serif;
-  font-size: 0.8rem;
+  font-size: .8rem;
   list-style-type: lower-greek;
 }
 
-dl dt{
+dl dt {
   font-family: "PT Serif", serif;
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-weight: bold;
+}
+
+dl dt i {
+  font-weight: normal;
 }
 
 b {
@@ -80,13 +93,13 @@ b {
 
 ul li {
   font-family: "PT Serif", serif;
-  font-size: 0.8rem;
+  font-size: .8rem;
   list-style-type: circle;
 }
 
 footer {
   font-family: "PT Serif", serif;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 a {
@@ -99,8 +112,6 @@ a:hover {
   text-decoration: underline;
 }
 
-
-
 /* PT Sans font-family: 'PT Sans', sans-serif;
 
-PT Serif: font-family: 'PT Serif', serif;*/
+PT Serif: font-family: 'PT Serif', serif; */
