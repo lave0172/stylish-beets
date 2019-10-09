@@ -19,6 +19,11 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
 figcaption {
   font-family: "PT Serif", serif;
   font-size: 0.8rem;
@@ -82,6 +87,11 @@ footer {
 small a {
   color: #8f2440;
   text-decoration: none;
+}
+
+small a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
 
 
