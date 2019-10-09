@@ -33,7 +33,7 @@ img {
 
 figcaption {
   font-family: "PT Serif", serif;
-  font-size: .8rem;
+  font-size: 1rem;
   font-style: italic;
   text-align: center;
 }
@@ -46,7 +46,7 @@ data {
 
 p {
   font-family: "PT Serif", serif;
-  font-size: .8rem;
+  font-size: 1rem;
 }
 
 p b {
@@ -73,13 +73,13 @@ cite {
 
 aside ol li {
   font-family: "PT Serif", serif;
-  font-size: .8rem;
+  font-size: 1rem;
   list-style-type: lower-greek;
 }
 
 dl dt {
   font-family: "PT Serif", serif;
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
