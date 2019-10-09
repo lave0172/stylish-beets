@@ -85,6 +85,11 @@ dl dt {
 
 dl dt i {
   font-weight: normal;
+  padding: 1rem 0;
+}
+
+.spacing {
+  padding: 1rem 0;
 }
 
 b {
