@@ -8,7 +8,6 @@ h1, h2 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
-  font-weight: bold;
 }
 
 nav li a {
@@ -20,8 +19,8 @@ nav li a {
 
 nav .list-style-none {
   list-style-type: none;
+  font-weight: bold;
 }
-
 
 nav a:hover {
   color: #3f1622;
@@ -69,6 +68,7 @@ cite {
   font-family: "PT Serif", serif;
   font-size: .8rem;
   font-style: italic;
+  display: block;
 }
 
 aside ol li {
